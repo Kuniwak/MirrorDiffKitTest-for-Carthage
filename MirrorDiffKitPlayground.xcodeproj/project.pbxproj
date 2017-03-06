@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2475E18704E5EF066D779601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475E304CA497B2157D48525 /* AppDelegate.swift */; };
+		2475E3626029049C9DA9700D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2475E50032C0C3B20D403B85 /* LaunchScreen.storyboard */; };
+		2475E7965691F6FFE4EFD661 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2475E21F45230EB80CA04D75 /* Info.plist */; };
+		2475EB66B10C87C95A2E7AAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2475EF8CC4E31BD626C6E006 /* Main.storyboard */; };
+		2475EB83CAE00272C781B200 /* MirrorDiffKitPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475E9066095D3019B9B9961 /* MirrorDiffKitPlaygroundTests.swift */; };
+		2475ED470A3775BF8D31A197 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475E2D60C1356E73BBDC12D /* ViewController.swift */; };
+		2475EF2CE94028B8962238CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2475E295DFC81E9712F92D37 /* Assets.xcassets */; };
+		2475EFCFD04F833FE7AE5064 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2475E16EBB1BE6B9ACC31753 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2475E338F04C8E40BAF8BD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2475EABA1939ABDB7332A221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2475E4CAEFB953BC6383F8C4;
+			remoteInfo = MirrorDiffKitPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2475E16EBB1BE6B9ACC31753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2475E21F45230EB80CA04D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2475E295DFC81E9712F92D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2475E2D60C1356E73BBDC12D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2475E304CA497B2157D48525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2475E85B9025C53E3D07F8DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2475E86E4E57B9F54CC347E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2475E8AE30C8F04C3B305871 /* MirrorDiffKitPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MirrorDiffKitPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2475E9066095D3019B9B9961 /* MirrorDiffKitPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorDiffKitPlaygroundTests.swift; sourceTree = "<group>"; };
+		2475EB4D0E9B1DB3B997F7DF /* MirrorDiffKitPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrorDiffKitPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2475EAF4809641E78271B627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2475EF22589B0579F9BF8B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2475E6B3D6B02637F687ED92 = {
+			isa = PBXGroup;
+			children = (
+				2475E8F0171492EB86E01981 /* Products */,
+				2475E9C8A58C5A7254691DE9 /* MirrorDiffKitPlayground */,
+				2475E888FF92B1F761563171 /* MirrorDiffKitPlaygroundTests */,
+			);
+			sourceTree = "<group>";
+		};
+		2475E888FF92B1F761563171 /* MirrorDiffKitPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				2475E21F45230EB80CA04D75 /* Info.plist */,
+				2475E9066095D3019B9B9961 /* MirrorDiffKitPlaygroundTests.swift */,
+			);
+			path = MirrorDiffKitPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		2475E8F0171492EB86E01981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2475E8AE30C8F04C3B305871 /* MirrorDiffKitPlayground.app */,
+				2475EB4D0E9B1DB3B997F7DF /* MirrorDiffKitPlaygroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2475E9C8A58C5A7254691DE9 /* MirrorDiffKitPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				2475E16EBB1BE6B9ACC31753 /* Info.plist */,
+				2475E295DFC81E9712F92D37 /* Assets.xcassets */,
+				2475E50032C0C3B20D403B85 /* LaunchScreen.storyboard */,
+				2475E304CA497B2157D48525 /* AppDelegate.swift */,
+				2475EF8CC4E31BD626C6E006 /* Main.storyboard */,
+				2475E2D60C1356E73BBDC12D /* ViewController.swift */,
+			);
+			path = MirrorDiffKitPlayground;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2475E4CAEFB953BC6383F8C4 /* MirrorDiffKitPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2475EF850F310C3EEB98DAE8 /* Build configuration list for PBXNativeTarget "MirrorDiffKitPlayground" */;
+			buildPhases = (
+				2475E64021369C23EA5EA828 /* Sources */,
+				2475EAF4809641E78271B627 /* Frameworks */,
+				2475E16748978815E5DC910E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MirrorDiffKitPlayground;
+			productName = MirrorDiffKitPlayground;
+			productReference = 2475E8AE30C8F04C3B305871 /* MirrorDiffKitPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2475EBBE9AAA4E9CE3D84DD3 /* MirrorDiffKitPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2475E36230DDCBCB49A2429A /* Build configuration list for PBXNativeTarget "MirrorDiffKitPlaygroundTests" */;
+			buildPhases = (
+				2475EEE39AC97BFACA4DC50C /* Sources */,
+				2475EF22589B0579F9BF8B80 /* Frameworks */,
+				2475EEED7A76B999DE8561F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2475E650F6D1D53CE1D6CEC2 /* PBXTargetDependency */,
+			);
+			name = MirrorDiffKitPlaygroundTests;
+			productName = MirrorDiffKitPlaygroundTests;
+			productReference = 2475EB4D0E9B1DB3B997F7DF /* MirrorDiffKitPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2475EABA1939ABDB7332A221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Kuniwak;
+			};
+			buildConfigurationList = 2475ED0B6A298DB2AF18E21C /* Build configuration list for PBXProject "MirrorDiffKitPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2475E6B3D6B02637F687ED92;
+			productRefGroup = 2475E8F0171492EB86E01981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2475E4CAEFB953BC6383F8C4 /* MirrorDiffKitPlayground */,
+				2475EBBE9AAA4E9CE3D84DD3 /* MirrorDiffKitPlaygroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2475E16748978815E5DC910E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2475EFCFD04F833FE7AE5064 /* Info.plist in Resources */,
+				2475EF2CE94028B8962238CB /* Assets.xcassets in Resources */,
+				2475E3626029049C9DA9700D /* LaunchScreen.storyboard in Resources */,
+				2475EB66B10C87C95A2E7AAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2475EEED7A76B999DE8561F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2475E7965691F6FFE4EFD661 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2475E64021369C23EA5EA828 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2475E18704E5EF066D779601 /* AppDelegate.swift in Sources */,
+				2475ED470A3775BF8D31A197 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2475EEE39AC97BFACA4DC50C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2475EB83CAE00272C781B200 /* MirrorDiffKitPlaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2475E650F6D1D53CE1D6CEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2475E4CAEFB953BC6383F8C4 /* MirrorDiffKitPlayground */;
+			targetProxy = 2475E338F04C8E40BAF8BD65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2475E50032C0C3B20D403B85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2475E86E4E57B9F54CC347E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2475EF8CC4E31BD626C6E006 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2475E85B9025C53E3D07F8DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2475E6ADEB7B9A76F46980B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MirrorDiffKitPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuniwak.MirrorDiffKitPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2475E7BC5FB7D2006A52712C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2475E9F992842F26242885D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2475EA8896335AC810E72520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MirrorDiffKitPlayground.app/MirrorDiffKitPlayground";
+				INFOPLIST_FILE = MirrorDiffKitPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuniwak.MirrorDiffKitPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		2475EAF6444442530DF2DDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MirrorDiffKitPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuniwak.MirrorDiffKitPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2475EBBFBCEC58664E78FE3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MirrorDiffKitPlayground.app/MirrorDiffKitPlayground";
+				INFOPLIST_FILE = MirrorDiffKitPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuniwak.MirrorDiffKitPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2475E36230DDCBCB49A2429A /* Build configuration list for PBXNativeTarget "MirrorDiffKitPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2475EA8896335AC810E72520 /* Debug */,
+				2475EBBFBCEC58664E78FE3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2475ED0B6A298DB2AF18E21C /* Build configuration list for PBXProject "MirrorDiffKitPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2475E9F992842F26242885D6 /* Debug */,
+				2475E7BC5FB7D2006A52712C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2475EF850F310C3EEB98DAE8 /* Build configuration list for PBXNativeTarget "MirrorDiffKitPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2475E6ADEB7B9A76F46980B8 /* Debug */,
+				2475EAF6444442530DF2DDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2475EABA1939ABDB7332A221 /* Project object */;
+}

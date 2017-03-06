@@ -1,5 +1,0 @@
-[submodule "Carthage/Checkouts/Dwifft"]
-	url = https://github.com/Kuniwak/Dwifft.git
-[submodule "Carthage/Checkouts/MirrorDiffKit"]
-	path = Carthage/Checkouts/MirrorDiffKit
-	url = https://github.com/Kuniwak/MirrorDiffKit.git
